@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM in HTMl</title>
+</head>
+<body>
+            <form action="/google.com">
+                <label>
+                    <!-- label is used to activate input box by clicking on Username -->
+                        username
+                <input type ="text" placeholder=" Enter username">
+                <!-- placeholder is used to show "ENTER username " in empty box-->
+                </label>
+                <br>
+                password
+                <input type ="password" placeholder=" Enter password"> <br>
+                number
+                <input type ="number" placeholder=" Enter number"><br>
+                  time
+                <input type ="time" placeholder=" Enter time"><br>
+                colour
+                <input type ="color" placeholder=" Enter color">
+
+
+
+
+         <hr>
+
+
+
+
+                       <!-- by using div we dont have to use br tag -->
+                <div>
+                      <!-- USing classical Approach in label  -->
+                      <label for="username"> ENTER your username:</label>
+                          
+                      <input type ="text" id="username" placeholder=" Enter username">
+                      <!--  -->
+                </div>
+
+
+                <div>
+                      <!-- for password -->
+                      <label for="password"> ENTER your password:</label>
+                          
+                      <input type ="text" id="password" placeholder=" Enter password">
+                      <!--  -->
+                </div>
+
+
+                <!-- for age -->
+                <div>
+                    <label for="age"> ENTER your age:</label>
+                        
+                    <input type ="text" id="age" placeholder=" Enter age">
+                    <!--  -->
+                </div>
+
+
+              <button type="submit">submit</button>
+        <!-- Type 1 -->
+        <button type="button"> do something</button>
+        <!-- type 2 -->
+        <button type="reset"> do reset all things on the form</button>
+        <!-- type 3 -->
+
+            </form>
+</body>
+</html>
